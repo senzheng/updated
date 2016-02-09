@@ -1,0 +1,70 @@
+.container {
+   
+}
+
+.userPic {
+	height: 180px;
+	width: 180px;
+	position: relative;
+	top: 40px;
+}
+
+.userPic img {
+	width: 100%;
+	height: 100%;
+}
+
+form {
+	position: relative;
+	top: 40px;
+}
+
+.required {
+	position: relative;
+	top:40px;
+}
+
+.title {
+	width: 104px;
+	height: 29px;
+	color: #666;
+	font-family: "Helvetica Neue";
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 29px;
+}
+
+.required ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+label {
+	margin-bottom: 0;
+}
+
+.required ul li:nth-child(1){
+    overflow: hidden;
+}
+
+
+.required ul li:nth-child(1) div{
+	display: inline-block;
+	width: 50%;
+}
+.required ul li:nth-child(1) div:nth-child(1){
+	overflow: hidden;
+	margin-right: 0;
+}
+
+.required ul li:nth-child(1) div:nth-child(2){
+    position: relative;
+    float: right;
+}
+
+.required ul li:nth-child(1) div input{
+    width: 98%;
+	height: 40px;
+	background-color: white;
+	border: 1px solid #979797;
+}
